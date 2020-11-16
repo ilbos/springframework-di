@@ -3,12 +3,52 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63db7d0-0534-45cb-97ec-eef74d67fc87" name="Default Changelist" comment="add Changelog file" />
+    <list default="true" id="d63db7d0-0534-45cb-97ec-eef74d67fc87" name="Default Changelist" comment="add intelliJ automatic generated maven files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/SfgDiApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -18,7 +58,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/add_gitIgnore" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +99,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SfgDiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springframework-di" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sfgdi.SfgDiApplication" />
@@ -79,7 +132,9 @@
       <workItem from="1604864242955" duration="445000" />
       <workItem from="1604866385328" duration="253000" />
       <workItem from="1604866700578" duration="1211000" />
-      <workItem from="1604868499106" duration="437000" />
+      <workItem from="1604868499106" duration="1544000" />
+      <workItem from="1605124476710" duration="1153000" />
+      <workItem from="1605551075952" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="add initial spring framework project">
       <created>1604169261571</created>
@@ -109,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604868221888</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add intelliJ automatic generated maven files">
+      <created>1604869068586</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604869068586</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,28 +197,41 @@
     <MESSAGE value="add more complete .gitignore" />
     <MESSAGE value="add default intelliJ .gitignore" />
     <MESSAGE value="add Changelog file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Changelog file" />
+    <MESSAGE value="add intelliJ automatic generated maven files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add intelliJ automatic generated maven files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="386" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604867560961">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="386" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.726@0.23.1280.726" timestamp="1604867560961" />
-    <state x="169" y="23" key="CommitChangelistDialog2" timestamp="1604868974537">
+    <state x="169" y="23" key="CommitChangelistDialog2" timestamp="1605551132042">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="169" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1604868974537" />
+    <state x="169" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1605551132042" />
     <state x="125" y="85" key="DiffContextDialog" timestamp="1604867314372">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="125" y="85" key="DiffContextDialog/0.23.1280.726@0.23.1280.726" timestamp="1604867314372" />
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1604868225101">
+    <state x="128" y="85" key="MergeDialog" timestamp="1604869128561">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1604868225101" />
-    <state x="438" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604868550694">
+    <state x="128" y="85" key="MergeDialog/0.23.1280.726@0.23.1280.726" timestamp="1604869128561" />
+    <state x="278" y="154" key="MultipleFileMergeDialog" timestamp="1604869128603">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="438" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.726@0.23.1280.726" timestamp="1604868550694" />
+    <state x="278" y="154" key="MultipleFileMergeDialog/0.23.1280.726@0.23.1280.726" timestamp="1604869128603" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1604869177367">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1604869177367" />
+    <state x="438" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604869134420">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="438" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.726@0.23.1280.726" timestamp="1604869134420" />
+    <state x="305" y="73" width="670" height="676" key="search.everywhere.popup" timestamp="1604869283672">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="305" y="73" width="670" height="676" key="search.everywhere.popup/0.23.1280.726@0.23.1280.726" timestamp="1604869283672" />
   </component>
 </project>
