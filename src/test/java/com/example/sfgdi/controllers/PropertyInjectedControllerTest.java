@@ -14,11 +14,15 @@ class PropertyInjectedControllerTest {
     void setUp() {
         controller = new PropertyInjectedController();
 
+        //I can do this, as the property greetingService is not private!
+        //So I can set the property to be a new GreetingServiceImpl instance
         controller.greetingService = new GreetingServiceImpl();
     }
 
     @Test
     void getGreeting() {
+        //as the property is set, I can just call the function, that refers to
+        //sayGreeting() of the property (=> greetingService.sayGreeting() )
         System.out.println(controller.getGreeting());
     }
 }
