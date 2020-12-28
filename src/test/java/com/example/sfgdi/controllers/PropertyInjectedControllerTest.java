@@ -21,8 +21,8 @@ class PropertyInjectedControllerTest {
 
     @Test
     void getGreeting() {
-        //as the property is set, I can just call the function, that refers to
-        //sayGreeting() of the property (=> greetingService.sayGreeting() )
+        //as the property is set, I call the function getGreeting(), that calls sayGreeting()
+        //of the property (=> greetingService.sayGreeting())
         System.out.println(controller.getGreeting());
     }
 }

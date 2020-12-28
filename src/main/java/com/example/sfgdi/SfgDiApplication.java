@@ -1,5 +1,6 @@
 package com.example.sfgdi;
 
+import com.example.sfgdi.controllers.ConstructorInjectedController;
 import com.example.sfgdi.controllers.MyController;
 import com.example.sfgdi.controllers.PropertyInjectedController;
 import com.example.sfgdi.controllers.SetterInjectedController;
@@ -25,6 +26,10 @@ public class SfgDiApplication {
 		System.out.println("--------- Setter");
 		SetterInjectedController setterInjectedController = (SetterInjectedController) ctx.getBean("setterInjectedController");
 		System.out.println(setterInjectedController.getGreeting());
+
+		System.out.println("--------- Constructor");
+		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
+		System.out.println(constructorInjectedController.getGreeting());
 	}
 
 }
