@@ -36,10 +36,9 @@
     <list default="true" id="d63db7d0-0534-45cb-97ec-eef74d67fc87" name="Default Changelist" comment="added example for dependency injection via constructor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/PropertyInjectedController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/SetterInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/services/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/services/GreetingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/sfgdi/controllers/PropertyInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/sfgdi/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/sfgdi/SfgDiApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,7 @@
       <workItem from="1605124476710" duration="1153000" />
       <workItem from="1605551075952" duration="1700000" />
       <workItem from="1606248384765" duration="622000" />
-      <workItem from="1609178837367" duration="2762000" />
+      <workItem from="1609178837367" duration="3482000" />
     </task>
     <task id="LOCAL-00001" summary="add initial spring framework project">
       <created>1604169261571</created>
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606253748167</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add annotation to PropertyInjectedController">
+      <created>1609184975175</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609184975175</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +301,8 @@
     <MESSAGE value="added comments" />
     <MESSAGE value="added example for dependency injection via setter" />
     <MESSAGE value="added example for dependency injection via constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="added example for dependency injection via constructor" />
+    <MESSAGE value="add annotation to PropertyInjectedController" />
+    <option name="LAST_COMMIT_MESSAGE" value="add annotation to PropertyInjectedController" />
   </component>
   <component name="WindowStateProjectService">
     <state x="453" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1606253099004">
@@ -310,46 +317,62 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="386" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.726@0.23.1280.726" timestamp="1604867560961" />
-    <state x="169" y="23" key="CommitChangelistDialog2" timestamp="1609180893866">
+    <state x="169" y="23" key="CommitChangelistDialog2" timestamp="1609184974900">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="169" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1609180893866" />
+    <state x="169" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1609184974900" />
     <state x="125" y="85" key="DiffContextDialog" timestamp="1604867314372">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="125" y="85" key="DiffContextDialog/0.23.1280.726@0.23.1280.726" timestamp="1604867314372" />
-    <state width="1238" height="191" key="GridCell.Tab.0.bottom" timestamp="1609184696751">
+    <state width="1238" height="216" key="GridCell.Tab.0.bottom" timestamp="1609185528671">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609184696751" />
-    <state width="1238" height="191" key="GridCell.Tab.0.center" timestamp="1609184696748">
+    <state width="1238" height="216" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609185528671" />
+    <state width="1238" height="216" key="GridCell.Tab.0.center" timestamp="1609185528670">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1609184696748" />
-    <state width="1238" height="191" key="GridCell.Tab.0.left" timestamp="1609184696748">
+    <state width="1238" height="216" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1609185528670" />
+    <state width="1238" height="216" key="GridCell.Tab.0.left" timestamp="1609185528667">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1609184696748" />
-    <state width="1238" height="191" key="GridCell.Tab.0.right" timestamp="1609184696750">
+    <state width="1238" height="216" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1609185528667" />
+    <state width="1238" height="216" key="GridCell.Tab.0.right" timestamp="1609185528670">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1609184696750" />
-    <state width="1238" height="191" key="GridCell.Tab.1.bottom" timestamp="1609184696754">
+    <state width="1238" height="216" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1609185528670" />
+    <state width="1238" height="216" key="GridCell.Tab.1.bottom" timestamp="1609185531162">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609184696754" />
-    <state width="1238" height="191" key="GridCell.Tab.1.center" timestamp="1609184696753">
+    <state width="1238" height="216" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609185531162" />
+    <state width="1238" height="216" key="GridCell.Tab.1.center" timestamp="1609185531161">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1609184696753" />
-    <state width="1238" height="191" key="GridCell.Tab.1.left" timestamp="1609184696752">
+    <state width="1238" height="216" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1609185531161" />
+    <state width="1238" height="216" key="GridCell.Tab.1.left" timestamp="1609185531160">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1609184696752" />
-    <state width="1238" height="191" key="GridCell.Tab.1.right" timestamp="1609184696754">
+    <state width="1238" height="216" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1609185531160" />
+    <state width="1238" height="216" key="GridCell.Tab.1.right" timestamp="1609185531161">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="191" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1609184696754" />
+    <state width="1238" height="216" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1609185531161" />
+    <state width="0" height="0" key="GridCell.Tab.2.bottom" timestamp="1609185528501">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.2.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609185528501" />
+    <state width="0" height="0" key="GridCell.Tab.2.center" timestamp="1609185528500">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.2.center/0.23.1280.726@0.23.1280.726" timestamp="1609185528500" />
+    <state width="0" height="0" key="GridCell.Tab.2.left" timestamp="1609185528498">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.2.left/0.23.1280.726@0.23.1280.726" timestamp="1609185528498" />
+    <state width="0" height="0" key="GridCell.Tab.2.right" timestamp="1609185528501">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.2.right/0.23.1280.726@0.23.1280.726" timestamp="1609185528501" />
     <state x="128" y="85" key="MergeDialog" timestamp="1604869128561">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
@@ -378,5 +401,16 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="305" y="73" width="670" height="676" key="search.everywhere.popup/0.23.1280.726@0.23.1280.726" timestamp="1609184385997" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/SetterInjectedController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
