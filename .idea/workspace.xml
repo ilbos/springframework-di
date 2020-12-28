@@ -33,11 +33,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d63db7d0-0534-45cb-97ec-eef74d67fc87" name="Default Changelist" comment="added example for dependency injection via constructor">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/SfgDiApplication.java" afterDir="false" />
+    <list default="true" id="d63db7d0-0534-45cb-97ec-eef74d67fc87" name="Default Changelist" comment="added annotation to SetterInjectedController">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/services/ConstructorGreetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/services/PropertyGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/ConstructorInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/PropertyInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/controllers/SetterInjectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/services/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sfgdi/services/SetterGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/sfgdi/controllers/ConstructorInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/sfgdi/controllers/ConstructorInjectedControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/sfgdi/controllers/PropertyInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/sfgdi/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/sfgdi/SfgDiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/sfgdi/controllers/SetterInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/sfgdi/controllers/SetterInjectedControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,7 +66,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/add_spring_annotation" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +119,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SfgDiApplication">
+  <component name="RunManager" selected="JUnit.SetterInjectedControllerTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -143,6 +149,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PropertyInjectedControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springframework-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.sfgdi.controllers.PropertyInjectedControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetterInjectedControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springframework-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sfgdi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.sfgdi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.example.sfgdi.controllers.SetterInjectedControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SetterInjectedControllerTest.getGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springframework-di" />
       <extension name="coverage">
@@ -168,6 +204,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SetterInjectedControllerTest" />
+        <item itemvalue="JUnit.PropertyInjectedControllerTest" />
         <item itemvalue="JUnit.SetterInjectedControllerTest.getGreeting" />
         <item itemvalue="JUnit.ConstructorInjectedControllerTest.getGreeting" />
       </list>
@@ -324,46 +362,46 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="386" y="247" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.726@0.23.1280.726" timestamp="1604867560961" />
-    <state x="169" y="23" key="CommitChangelistDialog2" timestamp="1609185678574">
+    <state x="169" y="23" key="CommitChangelistDialog2" timestamp="1609187467756">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="169" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1609185678574" />
-    <state x="125" y="85" key="DiffContextDialog" timestamp="1604867314372">
+    <state x="169" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1609187467756" />
+    <state x="125" y="85" key="DiffContextDialog" timestamp="1609187467713">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="125" y="85" key="DiffContextDialog/0.23.1280.726@0.23.1280.726" timestamp="1604867314372" />
-    <state width="1238" height="245" key="GridCell.Tab.0.bottom" timestamp="1609185800180">
+    <state x="125" y="85" key="DiffContextDialog/0.23.1280.726@0.23.1280.726" timestamp="1609187467713" />
+    <state width="1238" height="207" key="GridCell.Tab.0.bottom" timestamp="1609187366606">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609185800180" />
-    <state width="1238" height="245" key="GridCell.Tab.0.center" timestamp="1609185800178">
+    <state width="1238" height="207" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609187366606" />
+    <state width="1238" height="207" key="GridCell.Tab.0.center" timestamp="1609187366604">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1609185800178" />
-    <state width="1238" height="245" key="GridCell.Tab.0.left" timestamp="1609185800177">
+    <state width="1238" height="207" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1609187366604" />
+    <state width="1238" height="207" key="GridCell.Tab.0.left" timestamp="1609187366603">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1609185800177" />
-    <state width="1238" height="245" key="GridCell.Tab.0.right" timestamp="1609185800179">
+    <state width="1238" height="207" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1609187366603" />
+    <state width="1238" height="207" key="GridCell.Tab.0.right" timestamp="1609187366605">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1609185800179" />
-    <state width="1238" height="245" key="GridCell.Tab.1.bottom" timestamp="1609185800182">
+    <state width="1238" height="207" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1609187366605" />
+    <state width="1238" height="207" key="GridCell.Tab.1.bottom" timestamp="1609187366608">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609185800182" />
-    <state width="1238" height="245" key="GridCell.Tab.1.center" timestamp="1609185800181">
+    <state width="1238" height="207" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1609187366608" />
+    <state width="1238" height="207" key="GridCell.Tab.1.center" timestamp="1609187366607">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1609185800181" />
-    <state width="1238" height="245" key="GridCell.Tab.1.left" timestamp="1609185800180">
+    <state width="1238" height="207" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1609187366607" />
+    <state width="1238" height="207" key="GridCell.Tab.1.left" timestamp="1609187366607">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1609185800180" />
-    <state width="1238" height="245" key="GridCell.Tab.1.right" timestamp="1609185800181">
+    <state width="1238" height="207" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1609187366606" />
+    <state width="1238" height="207" key="GridCell.Tab.1.right" timestamp="1609187366608">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="245" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1609185800181" />
+    <state width="1238" height="207" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1609187366608" />
     <state width="1238" height="216" key="GridCell.Tab.2.bottom" timestamp="1609185552442">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
@@ -396,10 +434,10 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1606253752957" />
-    <state x="438" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606253826793">
+    <state x="438" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609186151831">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="438" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.726@0.23.1280.726" timestamp="1606253826793" />
+    <state x="438" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.726@0.23.1280.726" timestamp="1609186151831" />
     <state x="390" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606253450599">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
@@ -408,5 +446,9 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="305" y="73" width="670" height="676" key="search.everywhere.popup/0.23.1280.726@0.23.1280.726" timestamp="1609184385997" />
+    <state x="370" y="305" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1609187119460">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="370" y="305" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1280.726@0.23.1280.726" timestamp="1609187119460" />
   </component>
 </project>
