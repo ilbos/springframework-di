@@ -1,10 +1,8 @@
 package com.example.sfgdi.controllers;
 
-import com.example.sfgdi.services.GreetingServiceImpl;
+import com.example.sfgdi.services.PropertyGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class PropertyInjectedControllerTest {
 
@@ -16,7 +14,7 @@ class PropertyInjectedControllerTest {
 
         //I can do this, as the property greetingService is not private!
         //So I can set the property to be a new GreetingServiceImpl instance
-        controller.greetingService = new GreetingServiceImpl();
+        controller.greetingService = new PropertyGreetingService();
     }
 
     @Test
